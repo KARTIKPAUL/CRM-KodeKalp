@@ -16,8 +16,8 @@ export const register = createAsyncThunk(
   async (user, thunkAPI) => {
     try {
       return await authService.register(user)
-      const data = await authService.register(user)
-      console.log('from slice',data)
+      // const data = await authService.register(user)
+      // console.log('from slice',data)
     } catch (err) {
       console.log(err)
       const message =
