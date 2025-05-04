@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { AiOutlineUser, AiOutlineLogin } from 'react-icons/ai'
+import { AiOutlineLogin } from 'react-icons/ai'
 import { toast } from 'react-toastify'
 import { useSelector, useDispatch } from 'react-redux'
 
